@@ -1,7 +1,6 @@
 # grimebot
-Telegram Bot - Microsoft Bot Framework
+- Microsoft Bot Framework Telegram Bot
+- Employs Azure Functions, queues, tables and storage
+<br/>
 
-Functions so far
-messages - message handler
-botlog	- message queue and log
-
+Updates to 'production' in this repo trigger immediate deployments to https://grimebot.scm.azurewebsites.net/
