@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "type": "queueTrigger",
+      "name": "myQueueItem",
+      "queueName": "bot-queues",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    },
+    {
+      "type": "table",
+      "name": "outputTable",
+      "tableName": "grimebotLog",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
