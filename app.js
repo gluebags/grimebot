@@ -17,7 +17,7 @@ const dick = 'xx';
 
 
 const storage = require('azure-storage');
-const connectionString = "DefaultEndpointsProtocol=https;AccountName=dbf;AccountKey=xx;TableEndpoint=https://xx.table.cosmos.azure.com:443/;";
+const connectionString = "DefaultEndpointsProtocol=https;AccountName=xx;AccountKey=xx;TableEndpoint=https://xx.table.cosmos.azure.com:443/;";
 const storageClient = storage.createTableService(connectionString);
 
 DefaultEndpointsProtocol = https; AccountName = xx; AccountKey = xx ==; TableEndpoint = https://xx.table.cosmos.azure.com:443/;
